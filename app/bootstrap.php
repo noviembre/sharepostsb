@@ -1,6 +1,8 @@
 <?php
 // Load Config
   require_once 'config/config.php';
+  //Cargar Ayudantes
+    require_once 'helpers/url_helper.php';
 
    // Autoload Core Libraries
   //en lugar de usar el require+once varias veces usamos spl_autoload_register
