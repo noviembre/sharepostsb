@@ -1,10 +1,12 @@
 <?php
+
 /**
  * Created by PhpStorm.
  * User: GoMiNam
  * Date: 3/6/2018
  * Time: 10:45 AM
  */
+session_start();
 // Flash message helper
 // EXAMPLE - flash('register_success', 'You are now registered');
 // DISPLAY IN VIEW - echo flash('register_success');
