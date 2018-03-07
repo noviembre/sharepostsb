@@ -167,7 +167,8 @@
           $_SESSION['user_id'] = $user->id;
           $_SESSION['user_email'] = $user->email;
           $_SESSION['user_name'] = $user->name;
-          redirect('pages/index');
+          //si se inicio sesion redirigir a posts
+          redirect('posts');
       }
       public function logout(){
           unset($_SESSION['user_id']);
