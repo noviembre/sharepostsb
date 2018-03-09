@@ -6,6 +6,10 @@ class Pages extends Controller {
 	}
 	//b. llamar al modelo de la funcion
 	public function index(){
+
+	    if(isLoggedIn()){
+	        redirect('posts');
+        }
 		
       
       $data = [
