@@ -14,7 +14,7 @@ class Pages extends Controller {
       
       $data = [
         'title' => 'Shareposts',
-        'description' => 'Simple social Network built on the PHP Framework',
+        'description' => 'bienvenido a mi Red Social MVC PHP Framework',
         
       ];
      //d. y lo pasamos a la Vista
