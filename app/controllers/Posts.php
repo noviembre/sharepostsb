@@ -126,7 +126,7 @@ class Posts extends Controller {
             $this->view('posts/edit', $data);
         }
     }
-
+ 
     // el $id que recibe show viene de la url
     public function show($id){
         //recibimos el $id
