@@ -14,11 +14,10 @@ class Pages extends Controller {
       
       $data = [
         'title' => 'Shareposts',
-<<<<<<< HEAD
+
         'description' => 'PHP MVC Framework Mi pagina wec',
-=======
-        'description' => 'bienvenido a mi Red Social MVC PHP Framework',
->>>>>>> caracteristica/nueva
+
+
         
       ];
      //d. y lo pasamos a la Vista
